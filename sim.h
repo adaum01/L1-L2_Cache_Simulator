@@ -18,9 +18,6 @@ struct {
    uint32_t L2_BLOCKOFFSET = 0;
    uint32_t PREF_N;
    uint32_t PREF_M;
-   //added params
-   
-   
 } cache_params_t;
 
 typedef struct {
@@ -35,9 +32,7 @@ class block{
       bool valid = 0; 
       bool dirty = 0;
       uint32_t LRU = 0;
-
       uint32_t tag = 0;
-      //uint32_t index = 0;
 };
 
 class cache{
